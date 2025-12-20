@@ -246,8 +246,10 @@ body.light-mode .snow-fill-overlay {
 /* Responsive adjustments */
 @media (max-width: 600px) {
     .container {
-        padding: 70px 16px 40px;
-        min-height: auto;
+        padding: 40px 16px;
+        min-height: 100vh;
+        justify-content: center;
+        align-items: center;
     }
 
     .hero {
